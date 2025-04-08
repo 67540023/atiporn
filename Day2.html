@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลหมาดัชชุน (Dachshund)</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color:rgb(100, 65, 15);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .intro-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+        .intro-section img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .intro-section div {
+            flex: 1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #6c490c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>ยินดีต้อนรับสู่โลกของหมาดัชชุน (Dachshund)</h2>
+        <p>ข้อมูลเกี่ยวกับสายพันธุ์หมาน่ารักตัวนี้</p>
+    </header>
+
+    <nav>
+        <a href="Day2.html">หน้าแรก</a>
+        <a href="Day2.1.html">เกี่ยวกับ</a>
+        
+    </nav>
+
+    <div class="container">
+        <section class="intro-section">
+            <div>
+                <h2>หมาดัชชุน (Dachshund) คืออะไร?</h2>
+                <p>สุนัขดัชชุนเป็นหนึ่งในสายพันธุ์ที่ระบุตัวได้ง่ายที่สุด เพราะมีรูปร่างเตี้ย ขาสั้น และหลังยาวเป็นจุดเด่นเฉพาะตัว ด้วยรูปร่างที่เป็นเอกลักษณ์นี้จึงได้รับฉายาว่า “สุนัขไส้กรอก” พวกเค้าถูกเพาะพันธุ์ขึ้นเพื่อล่าตัวแบดเจอร์ในยุโรปสมัยกลาง ซึ่งกลายเป็นที่มาของชื่อสายพันธุ์ โดยคำว่า “ดัชชุน” เป็นภาษาเยอรมันที่หมายถึง “สุนัขแบดเจอร์”
+
+โดยทั่วไปสุนัขพันธุ์ดัชชุนมีนิสัยร่าเริง มีชีวิตชีวา ขี้เล่น และซื่อสัตย์ พวกเค้าเป็นตัวเลือกที่ดีสำหรับมือใหม่หัดเลี้ยง ด้วยขนาดตัวเล็กจึงเหมาะกับการเลี้ยงในพื้นที่จำกัดอย่างคอนโดหรืออพาร์ทเมนท์ แต่เพราะโครงสร้างร่างกายทำให้ไม่เหมาะกับบ้านที่มีขั้นบันไดจำนวนมาก ดัชชุนเติบโตได้ดีในสภาพอากาศอบอุ่นมากกว่าอากาศหนาวจัด</p>
+                <button class="button" onclick="showMoreInfo()">คลิกเพื่ออ่านเพิ่มเติม</button>
+            </div>
+            <div>
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3UqzhfbiuG3W7AlKErO44GkVjyQOQ-K82Wl5cF-zqRPuJ-C-Wzpln9ri7wSjmrosUV2j8XZ8Wg9E7vcYGxiN3gQ">
+            <img src="https://www.purina.co.th/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0133_dachshund_long_standard.jpg?itok=deAwxx-i">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 หมาดัชชุน by atiporn jindanil</p>
+    </footer>
+
+    <script>
+        function showMoreInfo() {
+            alert("หมาดัชชุนมีต้นกำเนิดมาจากเยอรมนีและได้รับความนิยมมากในทั่วโลก พวกมันมักมีลักษณะขี้เล่นและรักเจ้าของอย่างมาก");
+        }
+    </script>
+
+
+</body>
+</html>
